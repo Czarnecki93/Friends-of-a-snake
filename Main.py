@@ -75,13 +75,15 @@ while True:
             chatbot(text = "You chose: Add a member")
             addMember()
         elif (snake_or_member == 2):
-            chatbot(text = "You chose; Add a snake")
+            chatbot(text = "You chose: Add a snake")
             addSnake()
         elif (snake_or_member == 3):
+            chatbot(text = "You chose: See list of members")
             f = open("mymembers.txt", "r")
             chatbot(text = f.read())
             chatbot(text = "Allright! That was an interesting list! What's next?")
         elif (snake_or_member == 4):
+            chatbot(text = "You chose: See list of snakes")
             f = open("mysnakes.txt", "r")
             chatbot(text = f.read())
             chatbot(text = "Allright! That was an interesting list! What's next?")
