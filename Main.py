@@ -69,7 +69,7 @@ while True:
         try:
             snake_or_member = int(snake_or_member)
         except:
-            chatbot(text = "Sorry I didn't get that. Enter either 1 or 2.")
+            chatbot(text = "Sorry I didn't get that. You have to enter a number between 0 and 4 to make a choice.")
             continue
         if (snake_or_member == 1 ):
             chatbot(text = "You chose: Add a member")
