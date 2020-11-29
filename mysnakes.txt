@@ -1,2 +1,0 @@
-
-Snake id: 1. Snake name: Lisssa. Snake type: Mamba. Owner of the snake: Adam.
